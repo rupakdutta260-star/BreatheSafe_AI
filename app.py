@@ -8,11 +8,11 @@ model, encoder = joblib.load("model.pkl")
 
 st.set_page_config(
 
-    page_title="Air Quality Prediction",
+    page_title="BreatheSafe AI",
     page_icon="🌍",
     layout="wide"
 )
-st.title(" Air Quality + Health Risk Prediction")
+st.title(" BreatheSafe AI")
 st.write("Enter air quality values and predict the health risk.")
 st.sidebar.header(" Enter Air Quality Values")
 pm25 = st.sidebar.number_input(
